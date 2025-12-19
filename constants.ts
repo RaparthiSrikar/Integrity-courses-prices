@@ -4,9 +4,12 @@ export const COURSES: CoursePlan[] = [
   {
     id: 'ai',
     title: 'Artificial Intelligence',
+    category: 'AI & Data Science',
     description: 'Master AI algorithms, machine learning models, and neural networks.',
     monthlyPrice: 7999,
+    originalMonthlyPrice: 12000,
     fullCoursePrice: 21000,
+    originalFullCoursePrice: 35000,
     durationMonths: 3,
     features: ['Machine Learning', 'Deep Learning', 'Neural Networks', 'Python for AI'],
     popular: true,
@@ -15,9 +18,12 @@ export const COURSES: CoursePlan[] = [
   {
     id: 'mern',
     title: 'MERN & Mean Stack',
+    category: 'Web Development',
     description: 'Become a full-stack developer with MongoDB, Express, React/Angular, and Node.',
-    monthlyPrice: 5000,
+    monthlyPrice: 4999,
+    originalMonthlyPrice: 8000,
     fullCoursePrice: 29999,
+    originalFullCoursePrice: 45000,
     durationMonths: 6,
     features: ['React.js & Angular', 'Node.js Backend', 'MongoDB Database', 'REST APIs'],
     popular: true,
@@ -26,9 +32,12 @@ export const COURSES: CoursePlan[] = [
   {
     id: 'devops',
     title: 'DevOps Engineering',
+    category: 'Web Development',
     description: 'Bridge the gap between development and operations with CI/CD tools.',
     monthlyPrice: 3999,
-    fullCoursePrice: 12000,
+    originalMonthlyPrice: 6000,
+    fullCoursePrice: 11999,
+    originalFullCoursePrice: 18000,
     durationMonths: 3,
     features: ['Docker & Kubernetes', 'Jenkins CI/CD', 'AWS Cloud Basics', 'Infrastructure as Code'],
     color: 'from-orange-500 to-red-500'
@@ -36,9 +45,12 @@ export const COURSES: CoursePlan[] = [
   {
     id: 'java',
     title: 'Java Development',
+    category: 'Web Development',
     description: 'Comprehensive Java training from core concepts to enterprise frameworks.',
     monthlyPrice: 2999,
-    fullCoursePrice: 9000,
+    originalMonthlyPrice: 5000,
+    fullCoursePrice: 8999,
+    originalFullCoursePrice: 15000,
     durationMonths: 3,
     features: ['Core Java', 'Spring Boot', 'Hibernate', 'Microservices'],
     color: 'from-red-500 to-pink-600'
@@ -46,9 +58,12 @@ export const COURSES: CoursePlan[] = [
   {
     id: 'python',
     title: 'Python Programming',
+    category: 'AI & Data Science',
     description: 'Learn the most versatile language for web, data, and automation.',
     monthlyPrice: 2999,
-    fullCoursePrice: 9000,
+    originalMonthlyPrice: 5000,
+    fullCoursePrice: 8999,
+    originalFullCoursePrice: 15000,
     durationMonths: 3,
     features: ['Python Syntax', 'Django/Flask', 'Data Structures', 'Scripting'],
     color: 'from-emerald-500 to-teal-600'
@@ -56,9 +71,12 @@ export const COURSES: CoursePlan[] = [
   {
     id: 'web-design',
     title: 'Web Design',
+    category: 'Design',
     description: 'Create stunning, responsive websites from scratch.',
-    monthlyPrice: 2500,
-    fullCoursePrice: 7500,
+    monthlyPrice: 2499,
+    originalMonthlyPrice: 4500,
+    fullCoursePrice: 7499,
+    originalFullCoursePrice: 12000,
     durationMonths: 3,
     features: ['HTML5 & CSS3', 'JavaScript Basics', 'Responsive Layouts', 'Bootstrap/Tailwind'],
     color: 'from-pink-500 to-rose-500'
@@ -66,9 +84,12 @@ export const COURSES: CoursePlan[] = [
   {
     id: 'linux',
     title: 'Linux Administration',
+    category: 'Networking & Hardware',
     description: 'Master the command line and server administration.',
     monthlyPrice: 2999,
-    fullCoursePrice: 9000,
+    originalMonthlyPrice: 5000,
+    fullCoursePrice: 8999,
+    originalFullCoursePrice: 15000,
     durationMonths: 3,
     features: ['Shell Scripting', 'User Management', 'Network Config', 'Security'],
     color: 'from-slate-500 to-gray-600'
@@ -76,9 +97,12 @@ export const COURSES: CoursePlan[] = [
   {
     id: 'cpp-oracle',
     title: 'C, C++, Oracle',
+    category: 'Web Development',
     description: 'Foundational programming and database management mastery.',
     monthlyPrice: 2999,
-    fullCoursePrice: 9000,
+    originalMonthlyPrice: 5000,
+    fullCoursePrice: 8999,
+    originalFullCoursePrice: 15000,
     durationMonths: 3,
     features: ['Memory Management', 'OOP Concepts', 'SQL Queries', 'PL/SQL'],
     color: 'from-cyan-600 to-blue-700'
@@ -86,9 +110,12 @@ export const COURSES: CoursePlan[] = [
   {
     id: 'tally',
     title: 'Tally Packages',
+    category: 'Office & Productivity',
     description: 'Complete accounting and inventory management training.',
-    monthlyPrice: 2000,
-    fullCoursePrice: 6000,
+    monthlyPrice: 3999,
+    originalMonthlyPrice: 6500,
+    fullCoursePrice: 9999,
+    originalFullCoursePrice: 16000,
     durationMonths: 2,
     features: ['Tally Prime', 'GST Calculation', 'Payroll Management', 'Inventory Control'],
     color: 'from-teal-400 to-emerald-500'
@@ -96,9 +123,12 @@ export const COURSES: CoursePlan[] = [
   {
     id: 'hardware',
     title: 'Hardware',
+    category: 'Networking & Hardware',
     description: 'Practical computer hardware training and troubleshooting.',
-    monthlyPrice: 2500,
-    fullCoursePrice: 7000,
+    monthlyPrice: 2499,
+    originalMonthlyPrice: 4500,
+    fullCoursePrice: 8999,
+    originalFullCoursePrice: 15000,
     durationMonths: 3,
     features: ['PC Assembly', 'Troubleshooting', 'OS Installation', 'Teaching + Practical'],
     color: 'from-gray-600 to-zinc-600'
@@ -106,9 +136,12 @@ export const COURSES: CoursePlan[] = [
   {
     id: 'networking',
     title: 'Networking',
+    category: 'Networking & Hardware',
     description: 'Understand networks, protocols, and infrastructure.',
-    monthlyPrice: 2500,
-    fullCoursePrice: 7000,
+    monthlyPrice: 2499,
+    originalMonthlyPrice: 4500,
+    fullCoursePrice: 8999,
+    originalFullCoursePrice: 15000,
     durationMonths: 3,
     features: ['LAN/WAN Config', 'IP Addressing', 'Routing Basics', 'Network Security'],
     color: 'from-indigo-400 to-blue-500'
@@ -116,9 +149,12 @@ export const COURSES: CoursePlan[] = [
   {
     id: 'dtp',
     title: 'DTP (Desktop Publishing)',
+    category: 'Design',
     description: 'Master design tools for print and digital media.',
-    monthlyPrice: 2000,
-    fullCoursePrice: 6000,
+    monthlyPrice: 2999,
+    originalMonthlyPrice: 5000,
+    fullCoursePrice: 5999,
+    originalFullCoursePrice: 10000,
     durationMonths: 2,
     features: ['Photoshop', 'CorelDraw', 'PageMaker', 'Design Principles'],
     color: 'from-fuchsia-500 to-purple-500'
@@ -126,9 +162,12 @@ export const COURSES: CoursePlan[] = [
   {
     id: 'ms-office',
     title: 'MS Office Tools',
+    category: 'Office & Productivity',
     description: 'Essential office productivity software mastery.',
-    monthlyPrice: 1500,
-    fullCoursePrice: 4500,
+    monthlyPrice: 2499,
+    originalMonthlyPrice: 3500,
+    fullCoursePrice: 4999,
+    originalFullCoursePrice: 8000,
     durationMonths: 2,
     features: ['Advanced Excel', 'Word Formatting', 'PowerPoint', 'Outlook'],
     color: 'from-green-500 to-emerald-600'
@@ -136,9 +175,12 @@ export const COURSES: CoursePlan[] = [
   {
     id: 'autocad',
     title: 'AutoCAD',
+    category: 'Design',
     description: '2D and 3D computer-aided design for engineering.',
-    monthlyPrice: 3500,
-    fullCoursePrice: 10000,
+    monthlyPrice: 3999,
+    originalMonthlyPrice: 6500,
+    fullCoursePrice: 9999,
+    originalFullCoursePrice: 16000,
     durationMonths: 3,
     features: ['2D Drafting', '3D Modeling', 'Layouts', 'Engineering Drawing'],
     color: 'from-red-600 to-orange-600'
@@ -148,5 +190,6 @@ export const COURSES: CoursePlan[] = [
 export const APP_CONSTANTS = {
   CURRENCY_SYMBOL: '₹',
   CONTACT_EMAIL: 'hr@digital-itsolutions.com',
-  PHONE_NUMBERS: '+91 9652352635, 63013 87792'
+  PHONE_NUMBERS: '+91 9652352635, 63013 87792',
+  ENROLL_LINK: 'https://docs.google.com/forms/d/e/1FAIpQLSfT6MbE3OYaIv4HjO-NFEvcjRGw3cuzwDJZYvnJZ7Pzs4uFXg/viewform?usp=dialog'
 };
